@@ -1,0 +1,42 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+h1{
+  font-size: 10vmin;
+  margin: 0;
+}
+p{
+  margin-block-end: 35px;
+  font-size: 1.1rem;
+  color: lightgray}
+.container {
+  background: #23424a;
+  color: white;
+  margin: 0 auto;
+  padding: 6em 3em;
+  height: 100vh;
+}
+
+.intro-content{
+  width: 50% ;
+}
+@media (max-width:800px) {
+.intro-content{
+  width: 100%;
+}
+}
+button{
+  background: #38CFD9;
+  font-weight: 700;
+  border: 0;
+  outline: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+}
